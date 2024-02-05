@@ -106,6 +106,7 @@ a {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
     font-family: "caveat";
     text-decoration: none;
+    padding: 16px,30px;
 }
 .button:hover {
     background: #F4DFC8;
@@ -153,7 +154,7 @@ a {
 .works-box2 img,
 .works-box3 img,
 .works-box4 img {
-    border-width: solid 2px #F4EAE0 ;
+    border: solid 3px #F4EAE0 ;
     border-radius: 1%;
     box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
     width: 520px;
