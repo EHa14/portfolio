@@ -9,37 +9,33 @@
      <meta property="og:description" content="ポートフォリオサイトです。">
      <meta property="og:image" content="http://example.com/images/main.png">
      <meta name="description" content="WEBデザイン初心者ポートフォリオサイト">
-     <link rel="icon" type="png" href="main.png">
+     <link rel="icon" type="image/png" href="images/main.png">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
      <!-- CSS -->
       <link rel="stylesheet" href="http://unpkg.com/ress/dist/ress.min.css">
       <link href="https://fonts.googleapis.com/css2?family=Caveat" rel="stylesheet">
-      <link rel="stylesheet" href="https://eha14.github.io/portfolio/style.css"/>
+      <link href="style.css" rel="stylesheet">
      </head>
 
     <body>
-      <div id="home">
-        <header class="page-header wrapper">
-          
-          <nav class="nav">
-            <li class="main-nav">
-             <a href="index.html">Haruna's Portfolio</a>
-            </li>
- 
+          <div id="home">
+            <header class="page-header">
+                <a href="index.html#home">Haruna's Portfolio</a>
+
             <ul class="sub-nav">
-              <li><a href="index.html#about"">About</a></li><br>
+              <li><a href="index.html#about">About</a></li><br>
               <li><a href="career.html">Career</a></li>
-              <li><a href="index.html#works"">Works</a></li> 
-              <li><a href="index.html#strength"">Strength</a></li> 
-              <li><a href="index.html#contact"">Contact</a></li>
-             
+              <li><a href="index.html#works">Works</a></li> 
+              <li><a href="index.html#strength">Strength</a></li> 
+              <li><a href="index.html#contact">Contact</a></li>
+            
             </ul>
-          </nav>
+          </div>
         </header><!--- ヘッダー --->
 
-        <div class="career">
-        <img src="block.png" alt="ブロック">
+        <div class="title" id="career">
+        <img src="images/block.png" alt="ブロック">
         <h4>Career</h4>
         <p>-経歴-</p>
         </div>
@@ -78,7 +74,7 @@
           </div>
           
           <div class="line-img">
-            <img src="line.png">
+            <img src="images/line.png">
           </div>
 
           <div class="main">
@@ -113,6 +109,10 @@
                 デザインスキル習得に向け学習中<br>
               </ul>
           </div>
+        </div>
+
+        <div class="btn-wrapper" id="career-btn">
+          <a class="button" href="index.html">Go Back</a>
         </div>
 
         <footer>
